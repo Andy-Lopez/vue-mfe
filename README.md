@@ -1,3 +1,11 @@
+## run app
+1. cd packages/container (parent react 17 app)
+2. npm i && npm start
+3. cd packages/dashboard (vue2 app)
+4. npm i && npm start
+5. open localhost:8080 and see vue app imported from 8083
+
+## CLONED HERE:
 ## Build statuses
 
 ![Container](https://github.com/esplito/mfe-react-vue-module-federation-example/actions/workflows/container.yml/badge.svg) ![MarketingApp](https://github.com/esplito/mfe-react-vue-module-federation-example/actions/workflows/marketing.yml/badge.svg) ![AuthApp](https://github.com/esplito/mfe-react-vue-module-federation-example/actions/workflows/auth.yml/badge.svg) ![DashboardApp](https://github.com/esplito/mfe-react-vue-module-federation-example/actions/workflows/dashboard.yml/badge.svg)

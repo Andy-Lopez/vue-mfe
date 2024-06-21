@@ -35,9 +35,17 @@ export default () => {
   setsomeData('hi')
 
   setsomeOtherData('hello')
-  someBool
+  
 }
 }>Click update</button>
+
+<button style={{width: '200px', height: '200px'}} onClick={() => {
+  setsomeData(null)
+
+  setsomeOtherData(null)
+  
+}
+}>Click set null state</button>
 
 <button style={{width: '200px', height: '200px'}} onClick={() => {
   

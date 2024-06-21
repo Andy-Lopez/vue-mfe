@@ -4,6 +4,7 @@
   <div>{{ someData }}</div>
   <div>{{ someOtherData }}</div>
   <button v-if="someBool">'I should show if someBool is true</button>
+  <button v-if="!someBool">'I should show if someBool is false</button>
   </div>
 </template>
 <script>
